@@ -1,0 +1,94 @@
+:root
+{
+    --color-black:black;
+    --color-grey:grey;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
+body
+{
+    box-sizing: border-box;
+    font-family: 'palanquin',serif;
+}
+/******/
+.container-title h1
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container-title p
+{
+    font-size: 2rem;
+    color: var( --color-grey);
+}
+
+/*********/
+
+.card-box
+{
+    margin-top: 4rem;
+}
+
+.menu-card
+{
+    border-radius: 1rem;
+    box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 3rem;
+    transition: all .3s;
+}
+
+.menu-card:hover
+{
+    transform: scale(1.03);
+    transition: all .3s;
+
+}
+
+.menu-card-illustration 
+{
+    height: 20rem;
+    background-color: red;
+}
+
+.menu-card-illustration img
+{
+  height: 20rem;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px ;
+}
+
+.menu-card-content  h2
+{
+    font-size: 2.5rem;
+}
+
+.menu-card-content  span
+{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--color-grey);
+}
+
+
+@media screen and (max-width:576px)
+{
+     html
+    {
+    font-size: 60%;
+    }
+}
+

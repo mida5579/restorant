@@ -1,0 +1,40 @@
+/* font-family: 'Palanquin', sans-serif; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container h1 
+{
+   font-size: 30px; 
+   color: #444; 
+}
+
+.container p
+{
+   font-size: 20px; 
+   color: grey; 
+}
+
+.mycard
+{
+    text-align: initial;
+    border: none;
+    box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
+    border-radius:10px;
+}
+
+.one,
+.two
+{
+    margin-top: 35px;
+}
